@@ -3,3 +3,68 @@
     padding: 0;
     box-sizing: border-box;
 }
+ html, body{
+    font-family: "Figtree", sans-serif;
+    background-color: hsl(47, 88%, 63%);
+ }
+
+ main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+ }
+ .container{
+    border: solid 1px  hsl(0, 0%, 7%);
+    background-color: hsl(0, 0%, 100%);
+    width: 384px;
+    border-radius: 20px;
+    padding: 24px;
+    box-shadow: 8px 8px  hsl(0, 0%, 7%);
+ }
+
+.illu{
+    border-radius: 20px;
+}
+ .content{
+    color: hsl(0, 0%, 7%);
+    margin-top: 24px;
+ }
+ .category{
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 12px;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 4px;
+    width: 82px;
+    padding: 4px 12px;
+ }
+ .publish_date{
+    font-size: 14px;
+    margin-bottom: 12px;
+ }
+ h2{
+    font-weight: 800;
+    font-size: 24px;
+    margin-bottom: 12px;
+ }
+ p{
+    color: hsl(0, 0%, 50%);
+    font-size: 16px;
+    margin-bottom: 24px;
+    line-height: 24px;
+ }
+ .author{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+ }
+ .author img{
+    width: 32px;
+    margin-right: 
+ }
+ .author span{
+    font-size: 14px;
+    font-weight: bold;
+ }
