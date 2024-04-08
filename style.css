@@ -1,3 +1,9 @@
+:root{
+    --main-bg-color:hsl(47, 88%, 63%);
+    --main-color:hsl(0, 0%, 7%);
+    --small-font-size: 14px;
+    --border-radius: 20px;
+}
 *{
     margin: 0;
     padding: 0;
@@ -5,11 +11,11 @@
 }
 a{
     text-decoration: none;
-    color: hsl(0, 0%, 7%);
+    color: var(--main-color);
 }
  html, body{
     font-family: "Figtree", sans-serif;
-    background-color: hsl(47, 88%, 63%);
+    background-color: var(--main-bg-color);
  }
 
  main{
@@ -20,35 +26,35 @@ a{
     height: 100vh;
  }
  .container{
-    border: solid 1px  hsl(0, 0%, 7%);
+    border: solid 1px var(--main-color);
     background-color: hsl(0, 0%, 100%);
     width: 384px;
-    border-radius: 20px;
+    border-radius: var(--border-radius);
     padding: 24px;
-    box-shadow: 8px 8px  hsl(0, 0%, 7%);
+    box-shadow: 8px 8px var(--main-color);
     transition: box-shadow 0.5s ease-out 10ms;
  }
 .container:hover{
-    box-shadow: 16px 16px  hsl(0, 0%, 7%);
+    box-shadow: 16px 16px var(--main-color);
 }
 .illu{
-    border-radius: 20px;
+    border-radius: var(--border-radius);
 }
  .content{
-    color: hsl(0, 0%, 7%);
+    color: var(--main-color);
     margin-top: 24px;
  }
  .category{
     font-weight: bold;
-    font-size: 14px;
+    font-size: var(--small-font-size);
     margin-bottom: 12px;
-    background-color: hsl(47, 88%, 63%);
+    background-color: var(--main-bg-color);
     border-radius: 4px;
     width: 82px;
     padding: 4px 12px;
  }
  .publish_date{
-    font-size: 14px;
+    font-size: var(--small-font-size);
     margin-bottom: 12px;
  }
  h2{
@@ -57,7 +63,7 @@ a{
     margin-bottom: 12px;
  }
  a:hover{
-    color: hsl(47, 88%, 63%);
+    color: var(--main-bg-color);
  }
  p{
     color: hsl(0, 0%, 50%);
@@ -75,6 +81,6 @@ a{
     margin-right: 
  }
  .author span{
-    font-size: 14px;
+    font-size: var(--small-font-size);
     font-weight: bold;
  }
