@@ -70,6 +70,9 @@ a{
  .title:hover{
     color: var(--main-bg-color);
  }
+ .title:focus{
+   color: var(--main-bg-color);
+ }
  p{
     color: hsl(0, 0%, 50%);
     font-size: 1rem;
@@ -87,6 +90,12 @@ a{
  .author span{
     font-size: var(--small-font-size);
     font-weight: bold;
+ }
+ .name:hover{
+   color: var(--main-bg-color);
+ }
+ .name:focus{
+   color: var(--main-bg-color);
  }
 
 .attribution{
